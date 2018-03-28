@@ -8,4 +8,4 @@ while True:
         updates = new_updates
     elif len(new_updates['result']) == 0:
         updates = new_updates
-    time.sleep(1)
+    time.sleep(10)
