@@ -3,7 +3,7 @@ import json
 from datetime import date
 from datetime import timedelta
 URL = 'https://api.telegram.org/bot'
-TOKEN = '569808870:AAGLGlrAXk89XdFp-upqxWfCrdFUxKZH93g'
+TOKEN = 'token'
 
 def get_updates()->'dict':
     url = URL + TOKEN + '/getUpdates'
